@@ -8,6 +8,10 @@ module.exports = {
       colors: {
         teal: colors.teal,
         cyan: colors.cyan,
+        yellow: "#FFC800",
+        white: "#FAFAFA",
+        green: "#5FFF90",
+        skyBlue: "#00EDFF",
       },
     },
   },

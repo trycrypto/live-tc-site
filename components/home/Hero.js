@@ -6,15 +6,18 @@ export default function Example() {
         <div className="lg:grid lg:grid-cols-12 lg:gap-8">
           <div className="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
             <h1>
-              <span className="mt-1 block text-4xl tracking-tight font-extrabold sm:text-5xl xl:text-7xl">
-                <span className="block text-gray-900">Data to enrich your</span>
-                <span className="block text-indigo-600">online business</span>
+              <span className="mt-1 block text-4xl tracking-tight font-extrabold sm:text-5xl xl:text-5xl">
+                <span className="block text-gray-900">
+                  TryCrypto is a community{" "}
+                </span>
+                <span className="block text-indigo-600">
+                  of women builders that
+                </span>
               </span>
             </h1>
             <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-              lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-              fugiat aliqua ad ad non deserunt sunt.
+              TryCrypto is a community of women builders that uses decentralized
+              technology to create a fairer, more just society.
             </p>
             <div className="mt-8 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left lg:mx-0">
               <button

@@ -132,7 +132,7 @@ export default function Example() {
                       " group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none "
                     )}
                   >
-                    <span>Projects</span>
+                    <a href="/projects">Projects</a>
                     <ChevronDownIcon
                       className={classNames(
                         open ? "text-gray-600" : "text-gray-400",
@@ -182,7 +182,7 @@ export default function Example() {
             </Popover>
           </Popover.Group>
           <Link href="/join-us" passHref>
-            <a className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700">
+            <a className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-5 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700">
               Join Us
             </a>
           </Link>

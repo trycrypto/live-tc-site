@@ -26,7 +26,7 @@ export default function Example() {
               type="email"
               autoComplete="email"
               required
-              className="w-full px-5 py-3 border border-transparent placeholder-gray-500 focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white focus:border-white sm:max-w-xs rounded-md"
+              className="w-full py-3 border border-transparent placeholder-gray-500 focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white focus:border-white sm:max-w-xs rounded-md"
               placeholder="Enter your email"
             />
             <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3 sm:flex-shrink-0">
@@ -38,12 +38,12 @@ export default function Example() {
               </button>
             </div>
           </form>
-          <p className="mt-3 text-sm text-gray-300">
+          {/* <p className="mt-3 text-sm text-gray-300">
             We care about the protection of your data. Read our{" "}
             <a href="#" className="text-white font-medium underline">
               Privacy Policy.
             </a>
-          </p>
+          </p> */}
         </div>
       </div>
     </div>
