@@ -1,7 +1,8 @@
 import MainBanner from "../visuals/Main-banner";
-export default function Example() {
+
+const Home = () => {
   return (
-    <div className="relative pt-6 pb-12 px-15 sm:pb-12 lg:pb-10">
+    <div className="relative h-screen pt-6 pb-12  px-15 sm:pb-12 lg:pb-10">
       <main className="mt-16 mx-auto max-w-screen-2xl px-4 sm:mt-24 sm:px-6 lg:mt-32">
         <div className="lg:grid lg:grid-cols-12 lg:gap-8">
           <div className="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
@@ -35,4 +36,6 @@ export default function Example() {
       </main>
     </div>
   );
-}
+};
+
+export default Home;
