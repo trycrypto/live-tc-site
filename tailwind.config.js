@@ -5,6 +5,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['"PT Sans"', "sans-serif"],
+      },
       backgroundImage: {
         "home-bkg": "url(/images/home.png)",
         "yellow-bkg": "url(/images/yellow.png)",

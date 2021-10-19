@@ -2,8 +2,6 @@ import React, { useState } from "react";
 export default function IndexPage() {
   const [show, setShow] = useState(null);
   const [profile, setProfile] = useState(false);
-  const [product, setProduct] = useState(false);
-  const [deliverables, setDeliverables] = useState(false);
   return (
     <>
       <div className="h-full w-full">
