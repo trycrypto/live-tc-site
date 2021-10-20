@@ -1,26 +1,35 @@
 const CryptoQueens = () => {
   return (
-    <div className=" relative bg-gray-50 pt-16 sm:pt-24 lg:pt-32">
-      <div className="mx-auto max-w-md px-4 text-center sm:px-6 sm:max-w-3xl lg:px-8 lg:max-w-7xl">
-        <div>
-          <h2 className="text-base font-semibold tracking-wider text-cyan-600 uppercase">
-            Serverless
-          </h2>
-          <p className="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
-            No server? No problem.
-          </p>
-          <p className="mt-5 max-w-prose mx-auto text-xl text-gray-500">
-            Phasellus lorem quam molestie id quisque diam aenean nulla in.
-            Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend
-            condimentum id viverra nulla.
-          </p>
-        </div>
-        <div className="mt-12 -mb-10 sm:-mb-24 lg:-mb-80">
-          <img
-            className="rounded-lg shadow-xl ring-1 ring-black ring-opacity-5"
-            src="https://tailwindui.com/img/component-images/green-project-app-screenshot.jpg"
-            alt=""
-          />
+    <div className="bg-cq-bkg bg-cover h-full">
+      <div className="lg:max-w-screen-xl md:max-w-screen-md  mx-auto flex items-center text-white ">
+        <div className="relative w-full my-auto py-32 flex flex-col-reverse justify-center items-center lg:flex-row ">
+          <div className="relative lg:w-6/12 sm:px-8 text-center lg:text-left">
+            <h1 className="text-4xl font-bold sm:text-5xl md:text-5xl lg:text-5xl xl:text-7xl ">
+              <span className="block bg-clip-text text-transparent bg-yellow-bkg bg-cover mb-8">
+                CryptoQueens
+              </span>
+            </h1>
+            <p className="my-3 text-lg text-grey-extralight sm:text-xl md:text-lg md:my-5 md:max-w-2xl">
+              Celebrating the greatest women in Cryptography.
+            </p>
+            <div className="mt-10">
+              <div className="mt-3 rounded-md shadow  ">
+                <a
+                  href="#"
+                  className="mx-auto lg:mx-0 w-9/12 lg:w-4/12 flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-xl text-grey bg-yellow-bkg bg-cover md:py-2 md:text-lg md:px-10"
+                >
+                  Explore
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="mx-auto  lg:-inset-y-24 lg:right-8 lg:w-1/2 ">
+            <img
+              className=" w-10/12 mx-auto object-cover md:w-7/12 lg:w-9/12"
+              src="/images/queens.png"
+              alt=""
+            />
+          </div>
         </div>
       </div>
     </div>
