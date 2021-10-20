@@ -35,7 +35,7 @@ const features = [
 
 export default function Example() {
   return (
-    <div className="relative bg-gray-50 overflow-hidden">
+    <div className="relative bg-black overflow-hidden">
       <div className="max-w-screen-2xl  mx-auto py-40 px-4 sm:px-6 lg:px-8 ">
         <svg
           className="absolute top-0 left-full transform -translate-x-1/2 -translate-y-3/4 lg:left-auto lg:right-full lg:translate-x-2/3 lg:translate-y-1/4"
