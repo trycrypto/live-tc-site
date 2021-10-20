@@ -4,20 +4,20 @@ export default function IndexPage() {
   const [profile, setProfile] = useState(false);
   return (
     <>
-      <div className="h-full w-full">
+      <div className="h-full w-full shadow-md">
         {/* Code block starts */}
         <nav className=" xl:block hidden">
           <div className="mx-auto container px-6 py-2">
             <div className="flex items-center justify-between">
               <div className="flex w-full sm:w-auto items-center sm:items-stretch justify-end sm:justify-start">
                 <img
-                  className="h-6 w-auto md:h-8"
+                  className="h-4 w-auto md:h-8"
                   src="/images/Logo.svg"
                   alt=""
                 />
               </div>
               <div className="flex">
-                <div className="hidden xl:flex md:mr-6 xl:mr-16 text-grey tracking-wide text-base space-x-4">
+                <div className="hidden xl:flex md:mr-6 xl:mr-16 text-grey-extralight tracking-wide text-base space-x-4">
                   <a
                     href="javascript: void(0)"
                     className="flex px-5 items-center py-6 leading-5 hover:text-yellow focus:text-yellow border-b-4 border-transparent focus:border-yellow  transition duration-150 ease-in-out"
@@ -58,7 +58,7 @@ export default function IndexPage() {
                     onClick={() => setProfile(!profile)}
                   >
                     {profile && (
-                      <ul className="p-2 z-10 w-44 bg-home-bkg bg-cover absolute rounded right-0 shadow top-0 mt-16 text-grey shadow-md tracking-wide space-y-5">
+                      <ul className="p-2 z-10 w-44 bg-home-bkg bg-cover absolute rounded right-0 shadow top-0 mt-16 text-grey-extralight shadow-md tracking-wide space-y-5">
                         <li className="cursor-pointer  leading-3 tracking-normal py-2 hover:text-yellow focus:text-yellow focus:outline-none ml-2 pb-4 border-b-2 border-opacity-10">
                           NftyFile
                         </li>
@@ -70,26 +70,28 @@ export default function IndexPage() {
                         </li>
                       </ul>
                     )}
-                    <div className="text-grey cursor-pointer flex text-sm border-2 border-transparent rounded-full focus:outline-none focus:border-white transition duration-150 ease-in-out">
-                      Projects
-                    </div>
-                    {/* Can be Chevron Icon */}
-                    <div className="ml-2 text-grey">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        className="icon icon-tabler icon-tabler-chevron-down cursor-pointer"
-                        width={20}
-                        height={20}
-                        viewBox="0 0 24 24"
-                        strokeWidth="1.5"
-                        stroke="currentColor"
-                        fill="none"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      >
-                        <path stroke="none" d="M0 0h24v24H0z" />
-                        <polyline points="6 9 12 15 18 9" />
-                      </svg>
+                    <div className="flex items-center border-2 border-white-dark px-3 py-2 rounded-2xl">
+                      <div className="text-grey-extralight cursor-pointer flex text-sm border-2 border-transparent rounded-full focus:outline-none focus:border-white transition duration-150 ease-in-out">
+                        Projects
+                      </div>
+                      {/* Can be Chevron Icon */}
+                      <div className="ml-2 text-grey-extralight">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          className="icon icon-tabler icon-tabler-chevron-down cursor-pointer"
+                          width={20}
+                          height={20}
+                          viewBox="0 0 24 24"
+                          strokeWidth="1.5"
+                          stroke="currentColor"
+                          fill="none"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        >
+                          <path stroke="none" d="M0 0h24v24H0z" />
+                          <polyline points="6 9 12 15 18 9" />
+                        </svg>
+                      </div>
                     </div>
                   </div>
                 </div>

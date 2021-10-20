@@ -11,9 +11,13 @@ module.exports = {
       backgroundImage: {
         "home-bkg": "url(/images/home.png)",
         "yellow-bkg": "url(/images/yellow.png)",
+        "cq-bkg": "url(/images/cq.png)",
       },
       colors: {
-        white: "#FFFFFF",
+        white: {
+          DEFAULT: "#FFFFFF",
+          dark: "#4D5358",
+        },
         black: {
           light: "#1B1C1C",
           DEFAULT: "#0E0E10",
