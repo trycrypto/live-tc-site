@@ -1,68 +1,37 @@
 /* This example requires Tailwind CSS v2.0+ */
 export default function Example() {
   return (
-    <div className="bg-white">
-      <div className="max-w-screen-2xl mx-auto py-12 px-4 sm:px-6 lg:py-40 lg:px-8">
-        <div className="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
-          <div>
-            <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
-              Used by the world&apos;s most average companies
-            </h2>
-            <p className="mt-3 max-w-3xl text-lg text-gray-500">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et,
-              egestas tempus tellus etiam sed. Quam a scelerisque amet
-              ullamcorper eu enim et fermentum, augue.
-            </p>
-            <div className="mt-8 sm:flex">
-              <button
-                type="submit"
-                className="uppercase mt-3 w-full px-10 py-4 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 shadow-sm hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:mt-0 sm:ml-3 sm:flex-shrink-0 sm:inline-flex sm:items-center sm:w-auto md:m-0"
-              >
-                Join our community
-              </button>
-            </div>
-          </div>
-          <div className="mt-8 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-0 lg:grid-cols-2">
-            <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+    <div className="bg-black py-20 ">
+      <div className="flex flex-col md:flex-row justify-end  md:justify-between items-center max-w-screen-lg mx-auto">
+        <div className="w-full max-w-md mx-auto md:max-w-0 md:mx-8 my-4">
+          <h2 className="max-w-md mx-auto text-3xl font-light text-grey text-center lg:max-w-xl lg:text-left">
+            Our
+          </h2>
+          <h2 className="max-w-md mx-auto text-3xl font-black text-grey text-center lg:max-w-xl lg:text-left">
+            Partners
+          </h2>
+        </div>
+        <div>
+          <div className="flex flex-col items-center justify-center space-y-14 md:space-y-0 md:flex-row  md:space-x-22 lg:space-x-36">
+            <div className="mt-4  flex flex-grow flex-shrink-0 justify-center lg:flex-grow-0 lg:ml-4">
               <img
-                className="max-h-12"
-                src="https://tailwindui.com/img/logos/transistor-logo-gray-400.svg"
+                className="h-12"
+                src="https://tailwindui.com/img/logos/workcation-logo-gray-400.svg"
                 alt="Workcation"
               />
             </div>
-            <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+            <div className="mt-4 flex flex-grow flex-shrink-0 justify-center lg:flex-grow-0 lg:ml-4">
               <img
-                className="max-h-12"
-                src="https://tailwindui.com/img/logos/mirage-logo-gray-400.svg"
-                alt="Mirage"
-              />
-            </div>
-            <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-              <img
-                className="max-h-12"
+                className="h-12"
                 src="https://tailwindui.com/img/logos/tuple-logo-gray-400.svg"
                 alt="Tuple"
               />
             </div>
-            <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+            <div className="mt-4 flex flex-grow flex-shrink-0 justify-center lg:flex-grow-0 lg:ml-4">
               <img
-                className="max-h-12"
-                src="https://tailwindui.com/img/logos/laravel-logo-gray-400.svg"
-                alt="Laravel"
-              />
-            </div>
-            <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-              <img
-                className="max-h-12"
+                className="h-12"
                 src="https://tailwindui.com/img/logos/statickit-logo-gray-400.svg"
-                alt="StaticKit"
-              />
-            </div>
-            <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-              <img
-                className="max-h-12"
-                src="https://tailwindui.com/img/logos/statamic-logo-gray-400.svg"
-                alt="Statamic"
+                alt="Level"
               />
             </div>
           </div>

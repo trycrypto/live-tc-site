@@ -17,7 +17,7 @@ export default function IndexPage() {
                 />
               </div>
               <div className="flex">
-                <div className="hidden xl:flex md:mr-6 xl:mr-16 text-grey-extralight tracking-wide text-base space-x-4">
+                <div className="hidden xl:flex text-grey-extralight tracking-wide text-base space-x-4">
                   <a
                     href="javascript: void(0)"
                     className="flex px-5 items-center py-6 leading-5 hover:text-yellow focus:text-yellow border-b-4 border-transparent focus:border-yellow  transition duration-150 ease-in-out"
@@ -36,7 +36,7 @@ export default function IndexPage() {
                   >
                     About
                   </a>
-                  <a
+                  {/* <a
                     href="javascript: void(0)"
                     className="flex px-5 items-center py-6 leading-5 hover:text-yellow focus:text-yellow border-b-4 border-transparent focus:border-yellow  transition duration-150 ease-in-out"
                   >
@@ -47,12 +47,12 @@ export default function IndexPage() {
                     className="flex px-5 items-center py-6 leading-5 hover:text-yellow focus:text-yellow border-b-4 border-transparent focus:border-yellow  transition duration-150 ease-in-out"
                   >
                     FAQ
-                  </a>
+                  </a> */}
                 </div>
               </div>
               {/* Projects and Join Us  */}
               <div className="hidden xl:flex items-center">
-                <div className="ml-6 relative">
+                <div className="relative">
                   <div
                     className="flex items-center relative"
                     onClick={() => setProfile(!profile)}
@@ -169,7 +169,7 @@ export default function IndexPage() {
                       <div className="flex items-center justify-between w-full">
                         <div className="flex items-center">
                           <img
-                            className="h-8 w-auto sm:h-10"
+                            className="h-4 w-auto md:h-8"
                             src="./images/Logo.svg"
                             alt=""
                           />
@@ -216,9 +216,9 @@ export default function IndexPage() {
                           </p>
                         </li>
                       </a>
-                      <li className="pt-8 cursor-pointer">
+                      {/* <li className="pt-8 cursor-pointer">
                         <p className=" xl:text-base text-base ml-3">Blog</p>
-                      </li>
+                      </li> */}
                       <div className=" relative pt-8">
                         <div
                           className="flex items-center  relative text-grey"

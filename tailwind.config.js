@@ -12,6 +12,8 @@ module.exports = {
         "home-bkg": "url(/images/home.png)",
         "yellow-bkg": "url(/images/yellow.png)",
         "cq-bkg": "url(/images/cq.png)",
+        newsletter: "url(/images/newsletter.png)",
+        footer: "url(/images/footer.png)",
       },
       colors: {
         white: {

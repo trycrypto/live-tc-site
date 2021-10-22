@@ -25,9 +25,9 @@ export default function Home() {
       <CryptoQueens />
       <Product />
       <Mission />
-      <Partners />
       <Newsletter />
-      <Blogs />
+      <Partners />
+      {/* <Blogs /> */}
       <Footer />
     </div>
   );
