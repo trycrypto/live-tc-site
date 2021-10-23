@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-export default function IndexPage() {
+import Link from "next/link";
+const Navbar = () => {
   const [show, setShow] = useState(null);
   const [profile, setProfile] = useState(false);
   return (
@@ -10,32 +11,37 @@ export default function IndexPage() {
           <div className="mx-auto container px-6 py-2">
             <div className="flex items-center justify-between">
               <div className="flex w-full sm:w-auto items-center sm:items-stretch justify-end sm:justify-start">
-                <img
-                  className="h-4 w-auto md:h-8"
-                  src="/images/Logo.svg"
-                  alt=""
-                />
+                <Link href="/">
+                  <img
+                    className="h-6 w-auto md:h-8 cursor-pointer"
+                    src="/images/Logo.svg"
+                    alt=""
+                  />
+                </Link>
               </div>
               <div className="flex">
                 <div className="hidden xl:flex text-grey-extralight tracking-wide text-base space-x-4">
-                  <a
-                    href="javascript: void(0)"
-                    className="flex px-5 items-center py-6 leading-5 hover:text-yellow focus:text-yellow border-b-4 border-transparent focus:border-yellow  transition duration-150 ease-in-out"
-                  >
-                    Home
-                  </a>
-                  <a
+                  <Link href="/" passHref>
+                    <a className="flex px-5 items-center py-6 leading-5 hover:text-yellow focus:text-yellow border-b-4 border-transparent focus:border-yellow  transition duration-150 ease-in-out">
+                      Home
+                    </a>
+                  </Link>
+                  <Link href="/join-us" passHref>
+                    <a className="flex px-5 items-center py-6  leading-5  hover:text-yellow focus:text-yellow border-b-4 border-transparent focus:border-yellow transition duration-150 ease-in-out">
+                      Community
+                    </a>
+                  </Link>
+                  {/* <a
                     href="javascript: void(0)"
                     className="flex px-5 items-center py-6 leading-5 hover:text-yellow focus:text-yellow border-b-4 border-transparent focus:border-yellow  transition duration-150 ease-in-out"
                   >
                     CryptoQueens
-                  </a>
-                  <a
-                    href="javascript: void(0)"
-                    className="flex px-5 items-center py-6  leading-5  hover:text-yellow focus:text-yellow border-b-4 border-transparent focus:border-yellow transition duration-150 ease-in-out"
-                  >
-                    About
-                  </a>
+                  </a> */}
+                  <Link href="/about" passHref>
+                    <a className="flex px-5 items-center py-6  leading-5  hover:text-yellow focus:text-yellow border-b-4 border-transparent focus:border-yellow transition duration-150 ease-in-out">
+                      About
+                    </a>
+                  </Link>
                   {/* <a
                     href="javascript: void(0)"
                     className="flex px-5 items-center py-6 leading-5 hover:text-yellow focus:text-yellow border-b-4 border-transparent focus:border-yellow  transition duration-150 ease-in-out"
@@ -107,11 +113,13 @@ export default function IndexPage() {
         <nav>
           <div className="py-6 px-6 w-full flex xl:hidden justify-between items-center  fixed top-0 z-40">
             <div className="w-full">
-              <img
-                className="h-8 w-auto sm:h-8"
-                src="./images/Logo.svg"
-                alt=""
-              />
+              <Link href="/">
+                <img
+                  className="h-6 w-auto md:h-8 cursor-pointer"
+                  src="/images/Logo.svg"
+                  alt=""
+                />
+              </Link>
             </div>
             <div className="flex items-center">
               <div className="relative mr-4 ">
@@ -168,11 +176,13 @@ export default function IndexPage() {
                     <div className="mt-6 flex w-full items-center justify-between">
                       <div className="flex items-center justify-between w-full">
                         <div className="flex items-center">
-                          <img
-                            className="h-4 w-auto md:h-8"
-                            src="./images/Logo.svg"
-                            alt=""
-                          />
+                          <Link href="/">
+                            <img
+                              className="h-6 w-auto md:h-8 cursor-pointer"
+                              src="/images/Logo.svg"
+                              alt=""
+                            />
+                          </Link>
                         </div>
                         <div
                           id="cross"
@@ -275,4 +285,6 @@ export default function IndexPage() {
       </div>
     </>
   );
-}
+};
+
+export default Navbar;

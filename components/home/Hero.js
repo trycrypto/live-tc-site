@@ -5,7 +5,6 @@ const Home = () => {
         <div className="w-full max-w-md mx-auto md:max-w-lg md:mx-8">
           <div className="lg:py-8  font-black  text-center md:text-left text-4xl md:text-5xl lg:text-7xl">
             <h2 className="mt-2 md:text-left leading-tight bg-clip-text text-transparent bg-yellow-bkg uppercase">
-              {" "}
               Actions,
             </h2>
             <h2

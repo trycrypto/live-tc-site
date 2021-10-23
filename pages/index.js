@@ -22,7 +22,7 @@ export default function Home() {
         <Navbar />
         <Hero />
       </div>
-      <CryptoQueens />
+      {/* <CryptoQueens /> */}
       <Product />
       <Mission />
       <Newsletter />
