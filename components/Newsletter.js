@@ -1,6 +1,6 @@
-export default function Example() {
+const Newsletter = () => {
   return (
-    <div className="bg-gray-800">
+    <div className="bg-black">
       <div className="max-w-screen-2xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center">
         <div className="lg:w-0 lg:flex-1">
           <h2
@@ -48,4 +48,6 @@ export default function Example() {
       </div>
     </div>
   );
-}
+};
+
+export default Newsletter;

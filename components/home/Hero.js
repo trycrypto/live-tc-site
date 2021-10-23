@@ -1,38 +1,37 @@
-import MainBanner from "../visuals/Main-banner";
-export default function Example() {
+const Home = () => {
   return (
-    <div className="relative pt-6 pb-12 px-15 sm:pb-12 lg:pb-10">
-      <main className="mt-16 mx-auto max-w-screen-2xl px-4 sm:mt-24 sm:px-6 lg:mt-32">
-        <div className="lg:grid lg:grid-cols-12 lg:gap-8">
-          <div className="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
-            <h1>
-              <span className="mt-1 block text-4xl tracking-tight font-extrabold sm:text-5xl xl:text-5xl">
-                <span className="block text-gray-900">
-                  TryCrypto is a community{" "}
-                </span>
-                <span className="block text-indigo-600">
-                  of women builders that
-                </span>
-              </span>
-            </h1>
-            <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
+    <main className="relative">
+      <div className="flex flex-col-reverse md:flex-row justify-between max-w-screen-xl mx-auto pt-32 pb-10 md:pb-0 ">
+        <div className="w-full max-w-md mx-auto md:max-w-lg md:mx-8">
+          <div className="lg:py-8  font-black  text-center md:text-left text-4xl md:text-5xl lg:text-7xl">
+            <h2 className="mt-2 md:text-left leading-tight bg-clip-text text-transparent bg-yellow-bkg uppercase">
+              Actions,
+            </h2>
+            <h2
+              className="mt-1 md:text-left leading-tight text-grey
+            "
+            >
+              More than words
+            </h2>
+            <p className="mt-4 text-center md:text-left text-sm md:text-base lg:text-lg font-normal leading-relaxed text-grey-extralight">
               TryCrypto is a community of women builders that uses decentralized
               technology to create a fairer, more just society.
             </p>
-            <div className="mt-8 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left lg:mx-0">
-              <button
-                type="submit"
-                className="uppercase mt-3 w-full px-10 py-4 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 shadow-sm hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:mt-0 sm:ml-3 sm:flex-shrink-0 sm:inline-flex sm:items-center sm:w-auto md:m-0"
-              >
-                Join our community
-              </button>
-            </div>
-          </div>
-          <div className="mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center">
-            <MainBanner className="w-full" />
+            <a className="px-8 text-base tracking-wide cursor-pointer py-3 font-bold rounded-lg text-grey bg-yellow-bkg bg-cover   focus:shadow-outline focus:outline-none  mt-8 md:mt-8 text-sm inline-block mx-auto md:mx-0">
+              Join Our Community
+            </a>
           </div>
         </div>
-      </main>
-    </div>
+        <div className="w-full max-w-md mx-auto md:max-w-3xl md:mx-0">
+          <img
+            className=" mx-auto w-10/12  object-cover md:w-11/12 flex-shrink-0 relative"
+            src="/images/equity.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </main>
   );
-}
+};
+
+export default Home;

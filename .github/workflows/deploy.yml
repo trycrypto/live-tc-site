@@ -17,7 +17,7 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           vercel-token: ${{ secrets.GEL_VERCEL_TOKEN }}
           vercel-org-id: ${{ secrets.GEL_ORG_ID}}
-          vercel-project-id: ${{ secrets.GEL_TRYCRYPTO_PROJECT_ID}}
-          vercel-args: '--prod'
+          vercel-project-id: ${{ secrets.GEL_TC_PROJECT_ID}}
+          vercel-args: "--prod"
           github-comment: false # No need to comment preview link
           working-directory: ./

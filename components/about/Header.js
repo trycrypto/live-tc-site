@@ -31,9 +31,9 @@ const supportLinks = [
 
 export default function Example() {
   return (
-    <div className="bg-white">
+    <div>
       {/* Header */}
-      <div className="relative pb-16 bg-white">
+      <div className="relative pb-16 ">
         <div className="absolute inset-0">
           <div
             className="absolute inset-0 bg-gray-100 mix-blend-multiply"

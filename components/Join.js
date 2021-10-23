@@ -1,83 +1,69 @@
-/* This example requires Tailwind CSS v2.0+ */
-import {
-  CloudUploadIcon,
-  CogIcon,
-  LockClosedIcon,
-  RefreshIcon,
-  ServerIcon,
-  ShieldCheckIcon,
-} from "@heroicons/react/outline";
-
 const features = [
-  { name: "Push to Deploy", icon: CloudUploadIcon },
-  { name: "SSL Certificates", icon: LockClosedIcon },
-  { name: "Simple Queues", icon: RefreshIcon },
-  { name: "Advanced Security", icon: ShieldCheckIcon },
-  { name: "Powerful API", icon: CogIcon },
-  { name: "Database Backups", icon: ServerIcon },
+  {
+    name: "Design",
+    description: "Making things look  and feel good is your vibe.",
+  },
+  { name: "Engineering", description: "You code wrangler, you!" },
+  { name: "Community", description: "Is there even life outside of Discord?" },
+  { name: "Product", description: "Is that your best feature?" },
+  { name: "Marketing", description: "280 characters is all you need." },
+  { name: "Operations", description: "You’re such a smooth operator." },
 ];
 
-export default function Example() {
+const Join = () => {
   return (
-    <div className="relative bg-white py-16 sm:py-4 lg:py-10">
+    <div className="relative py-20 lg:pt-10 lg:pb-28">
       {/* Header */}
-      <div className="relative pb-16 bg-white flex justify-center">
-        <div className="absolute inset-0">
-          <div
-            className="absolute inset-0 bg-gray-100 mix-blend-multiply"
-            aria-hidden="true"
-          />
-        </div>
-        <div className="relative max-w-screen-2xl text-center mx-auto py-10 px-4 sm:pt-16 sm:pb-2 sm:px-10 lg:px-12">
-          <h1 className="text-4xl font-bold tracking-tight text-black md:text-4xl lg:text-5xl">
-            How To Contribute
+
+      <div className="relative flex flex-col md:flex-row justify-between max-w-screen-2xl text-left mx-auto py-10 px-6 sm:pt-16 sm:pb-2 sm:px-10 lg:px-12">
+        <div>
+          <h1 className="text-3xl font-semibold tracking-tight text-white lg:text-4xl ">
+            How to
           </h1>
-          <p className="mt-6 max-w-2xl text-xl text-gray-500 lg:max-w-xl">
-            Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate
-            id malesuada non. Cras aliquet purus dui laoreet diam sed.
+          <h1 className="mt-2 font-bold text-4xl leading-tight bg-clip-text text-transparent bg-yellow-bkg uppercase md:text-4xl lg:text-5xl">
+            Contribute
+          </h1>
+
+          <p className="mt-6 max-w-2xl text-lg md:text-xl text-grey-extralight lg:max-w-xl">
+            We work on projects that make crypto more accessible.
           </p>
-          <div className="mt-8 flex justify-center space-x-10 ">
-            <div className="inline-flex rounded-md shadow">
-              <a
-                href="#"
-                className="inline-flex items-center justify-center px-8 py-3 w-52 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700"
-              >
-                Sign Up Typeform
-              </a>
-            </div>
-            <div className="ml-3 inline-flex">
-              <a
-                href="#"
-                className="inline-flex items-center justify-center px-8 py-3  w-52 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200"
-              >
-                Join Our Discord
-              </a>
-            </div>
+        </div>
+        <div className="mt-8 flex flex-col justify-center  space-y-4">
+          <div className="inline-flex rounded-md shadow">
+            <a
+              href="#"
+              className="inline-flex items-center justify-center px-8 py-3 w-52 border border-transparent text-base font-medium rounded-md text-white bg-yellow-bkg bg-cover "
+            >
+              Sign Up
+            </a>
+          </div>
+          <div className=" inline-flex">
+            <a
+              href="https://discord.gg/trycrypto"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center justify-center px-8 py-3  w-52 border border-grey-extralight text-base font-medium rounded-md text-grey-extralight hover:text-yellow"
+            >
+              Join Our Discord
+            </a>
           </div>
         </div>
       </div>
-      <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-screen-2xl">
+
+      <div className="mx-auto max-w-md px-4 md:px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-screen-2xl">
         <div className="mt-12 ">
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {features.map((feature) => (
-              <div key={feature.name} className="pt-6">
-                <div className="flow-root bg-gray-50 rounded-lg px-6 pb-8">
-                  <div className="-mt-6">
-                    <div>
-                      <span className="inline-flex items-center justify-center p-3 bg-indigo-500 rounded-md shadow-lg">
-                        <feature.icon
-                          className="h-6 w-6 text-white"
-                          aria-hidden="true"
-                        />
-                      </span>
+              <div key={feature.name} className="px-4 lg:px-1 xl:px-0">
+                <div className="relative">
+                  <img src="/images/border.svg" className="" />
+                  <div className="absolute flex justify-center items-center w-11/12 h-3/4 top-6 left-7 lg:w-10/12 lg:h-5/6 lg:left-12 xl:w-2/3 xl:left-14 xl:top-4 lg:top-4 text-black md:text-white hover:text-black  rounded-xl bg-yellow-light md:bg-grey-light hover:bg-yellow-light">
+                    <div className=" px-8 text-center ">
+                      <h3 className="text-lg font-medium mb-2">
+                        {feature.name}
+                      </h3>
+                      <p className="font-normal">{feature.description}</p>
                     </div>
-                    <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">
-                      {feature.name}
-                    </h3>
-                    <p className="mt-5 text-base text-gray-500">
-                      Ac tincidunt sapien vehicula erat auctor pellentesque
-                      rhoncus. Et magna sit morbi lobortis.
-                    </p>
                   </div>
                 </div>
               </div>
@@ -87,4 +73,6 @@ export default function Example() {
       </div>
     </div>
   );
-}
+};
+
+export default Join;
