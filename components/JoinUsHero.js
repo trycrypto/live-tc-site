@@ -1,3 +1,4 @@
+import Link from "next/link";
 const FEATURES = [
   {
     name: "Design",
@@ -23,21 +24,30 @@ const JoinUsHero = () => {
               Contribute
             </h1>
 
-            <p className="mt-6 max-w-2xl text-lg md:text-xl text-grey-extralight lg:max-w-xl">
+            {/* <p className="mt-6 max-w-2xl text-lg  text-grey-extralight lg:max-w-xl">
               We work on projects that make crypto more accessible.
-            </p>
+            </p> */}
           </div>
         </div>
 
-        <div className="flex flex-row justify-between items-center text-grey-extralight mx-auto">
+        <div className="mt-5 flex text-lg md:text-lg flex-row justify-between items-center text-grey-extralight mx-auto">
           <p>
-            We work on projects that make crypto more accessible. blah blah
-            (about co-leads) Accepting later
+            We are currently ramping up our crews in the areas below. <br />
+            If you are interested in a leadership role, click “Sign Up” and{" "}
+            <br />
+            complete the application now.
+            <br />
+            <br />
+            If you are interested in other roles, apply{" "}
+            <Link href="" passHref>
+              <a className="hover:text-yellow underline italic">here</a>
+            </Link>
+            .
           </p>
-          <div className="mt-8 flex flex-col justify-center  space-y-4">
+          <div className=" flex flex-col justify-center  space-y-4">
             <div className="inline-flex ">
               <a
-                href="#"
+                href="https://ly3v2je88v5.typeform.com/to/CR6M3SJD"
                 className="inline-flex items-center justify-center px-8 py-3 w-52 border border-transparent text-base font-medium rounded-md text-white bg-yellow-bkg bg-cover "
               >
                 Sign Up

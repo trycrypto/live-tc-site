@@ -10,25 +10,25 @@ const features = [
   {
     name: "Actions over words",
     description:
-      "Consequuntur omnis dicta cumque, inventore atque ab dolores aspernatur tempora ab doloremque.",
+      'We prioritize action over analysis, and believe in "move fast and get results!”',
     icon: GlobeAltIcon,
   },
   {
     name: "Work for global economic equity",
     description:
-      "Corporis quisquam nostrum nulla veniam recusandae temporibus aperiam officia incidunt at distinctio ratione.",
+      "We strive to bring economic equity for people everywhere, especially in developing countries.",
     icon: ScaleIcon,
   },
   {
     name: "High ethical and quality standards",
     description:
-      "Omnis, illo delectus? Libero, possimus nulla nemo tenetur adipisci repellat dolore eligendi velit doloribus mollitia.",
+      "We aim for high quality in our work without making ethical compromises.",
     icon: LightningBoltIcon,
   },
   {
     name: "Empathy is paramount",
     description:
-      "Veniam necessitatibus reiciendis fugit explicabo dolorem nihil et omnis assumenda odit? Quisquam unde accusantium.",
+      "Empathy is the foundation on which we build our organization and our products.",
     icon: MailIcon,
   },
 ];

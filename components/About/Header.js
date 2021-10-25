@@ -4,13 +4,13 @@ import Link from "next/link";
 
 const Section1 = () => (
   <div className="py-4 lg:py-2 font-black text-center md:text-left text-4xl md:text-5xl lg:text-6xl">
-    <h2 className="mt-4 leading-tight text-grey">A Community</h2>
+    <h2 className=" leading-tight text-grey">A Community</h2>
     <span className="mt-1 flex justify-center md:justify-start leading-tight text-grey">
       of&nbsp;
       <h2 className="bg-clip-text text-transparent bg-yellow-bkg">builders.</h2>
     </span>
     <p className="mt-6 px-9 sm:px-0 text-center font-thin tracking-wider md:text-left text-sm sm:text-base md:text-base  font-normal leading-relaxed text-grey-extralight">
-      We are a community of builders who believes that decentralized technology
+      We are a community of builders who believe that decentralized technology
       has the potential to fundamentally transform people's lives for the better
       and create a fairer, more just society.
     </p>

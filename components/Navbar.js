@@ -65,21 +65,20 @@ const Navbar = () => {
                       </ul>
                     )}
 
-                    <div className="flex items-center border-2 border-white-dark px-3 py-2 rounded-2xl cursor-pointer">
+                    {/* <div className="flex items-center border-2 border-white-dark px-3 py-2 rounded-2xl cursor-pointer">
                       <div className="text-grey-extralight flex text-sm border-2 border-transparent rounded-full focus:outline-none focus:border-white transition duration-150 ease-in-out">
                         Projects
                       </div>
-                      {/* Can be Chevron Icon */}
                       <div className="ml-2 text-grey-extralight">
                         <ChevronDownIcon height={18} witdh={18} />
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
 
                 <div className="relative md:ml-6 my-2">
                   <Link href="/join-us" passHref>
-                    <a className="focus:outline-none bg-yellow-bkg  transition duration-150 ease-in-out bg-cover  hover:bg-grey rounded text-grey font-semibold tracking-wide px-5 py-3 text-sm">
+                    <a className="focus:outline-none bg-yellow-bkg bg-contain  transition duration-150 ease-in-out bg-cover  hover:bg-grey rounded text-grey font-semibold tracking-wide px-5 py-3 text-sm">
                       Join Us
                     </a>
                   </Link>
@@ -199,17 +198,17 @@ const Navbar = () => {
                               ))}
                             </ul>
                           )}
-                          <div className="flex items-center cursor-pointer">
+                          {/* <div className="flex items-center cursor-pointer">
                             <li>
                               <span className="xl:text-base text-base ml-3">
                                 Projects
                               </span>
                             </li>
-                            {/* Can be Chevron Icon */}
+                       
                             <div className="ml-2  text-grey">
                               <ChevronDownIcon height={18} witdh={18} />
                             </div>
-                          </div>
+                          </div> */}
                         </div>
                       </div>
                     </ul>

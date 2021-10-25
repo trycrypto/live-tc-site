@@ -21,7 +21,10 @@ const Partners = () => {
         </p>
         <div className="mt-6 grid grid-cols-1 md:grid-cols-2 lg:mt-8">
           {PARTNERS.map((item) => (
-            <div className="col-span-1 flex justify-center py-6 opacity-80">
+            <div
+              key={item.name}
+              className="col-span-1 flex justify-center py-6 opacity-80"
+            >
               <img
                 className="max-h-12 md:max-h-16"
                 src={item.logo}

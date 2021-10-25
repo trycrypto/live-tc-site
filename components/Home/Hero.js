@@ -3,17 +3,17 @@ import Link from "next/link";
 
 const Home = () => {
   return (
-    <div className="relative px-3 md:px-0">
-      <div className="flex flex-col-reverse md:flex-row justify-between max-w-screen-xl mx-auto pt-32 pb-10 md:pb-0 ">
-        <div className="w-full max-w-md mx-auto md:max-w-lg md:mx-8">
-          <div className="lg:py-8  font-black  text-center md:text-left text-4xl md:text-5xl lg:text-7xl">
-            <h2 className="mt-2 md:text-left leading-tight bg-clip-text text-transparent bg-yellow-bkg uppercase">
-              Actions,
+    <div className="bg-home-bkg bg-cover relative px-3 md:px-0">
+      <div className="flex flex-col-reverse md:flex-row justify-between max-w-screen-xl lg:max-w-screen-2xl mx-auto pt-32 pb-10 md:pb-0 ">
+        <div className="w-full max-w-lg mx-auto md:max-w-xl md:mx-8">
+          <div className="lg:py-8  font-black  text-center md:text-left text-4xl md:text-5xl xl:text-6xl">
+            <h2 className="mt-2 md:text-left leading-tight bg-clip-text text-transparent bg-yellow-bkg ">
+              TryCrypto
             </h2>
             <h2 className="mt-1 md:text-left leading-tight text-grey">
-              More than words
+              for an equitable world
             </h2>
-            <p className="mt-4 text-center font-thin tracking-wider md:text-left text-sm md:text-base  font-normal leading-relaxed text-grey-extralight">
+            <p className="mt-4 text-center font-thin tracking-wider md:text-left text-sm md:text-lg  font-normal leading-relaxed text-grey-extralight">
               TryCrypto is a community of women builders that uses decentralized
               technology to create a fairer, more just society.
             </p>

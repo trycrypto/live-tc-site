@@ -1,3 +1,4 @@
+import Link from "next/link";
 const PROJECTS = [
   {
     logo: "/images/products/nftyfile.png",
@@ -24,7 +25,19 @@ const Projects = () => {
           Current Projects
         </h2>
         <p className="mt-5 text-sm md:text-base lg:text-lg text-grey-dark font-thin tracking-wide ">
-          We work on projects that make crypto more accessible.
+          We are currently working on these projects that make crypto more
+          accessible. <br /> Crews for each project are forming soon. Join
+          our&nbsp;
+          <Link href="https://discord.gg/trycrypto" passHref>
+            <a
+              target="_blank"
+              rel="norefferer"
+              className="hover:text-yellow underline italic"
+            >
+              discord
+            </a>
+          </Link>
+          &nbsp;to indicate your interest!
         </p>
 
         <div className="mt-12">

@@ -22,17 +22,18 @@ const people = [
     image: "/images/team/Dayana.png",
     twitterUrl: "https://twitter.com/DayanaYankulova",
     about:
-      "Initially I wanted to get into the world of blockchain & crypto, but now I want to help others do it. I want to see blockchain simplified and open to everyone - a web3 with no limitations.",
+      "Initially I wanted to get into the world of blockchain & crypto, but now I want to help others do it. I want to see blockchain simplified and open to everyone — a web3 with no limitations.",
   },
-  // {
-  //   name: "Megan Conrad ",
-  //   emoji: "🦄🤸‍♀️",
-  //   image: "/images/team/",
-  //   twitterUrl: "https://twitter.com/",
-  //   about: "",
-  // },
   {
-    name: "Mirna Marian",
+    name: "Megan Conrad ",
+    emoji: "🐶⛷",
+    image: "/images/team/Megan.png",
+    twitterUrl: "https://twitter.com/Megan_Conrad",
+    about:
+      "I believe that crypto technologies can change the world, but only when women and minorities get a seat at the table.  TryCrypto's equality focus drives me toward finding new ways that crypto can do good in the world",
+  },
+  {
+    name: "Mirna Maria",
     emoji: "🐶✨",
     image: "/images/team/Mirna.png",
     twitterUrl: "https://twitter.com/ArtsyBolivian",
@@ -52,7 +53,7 @@ const people = [
     image: "/images/team/Radhika.png",
     twitterUrl: "https://twitter.com/radhika_lal_",
     about:
-      "I want to build products that make crypto accessible & understandable for users across the globe.",
+      "I want to build products that make crypto accessible and understandable for users across the globe.",
   },
   // More people...
 ];
