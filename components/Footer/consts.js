@@ -1,10 +1,8 @@
 export const MAIN = [
   { name: "Join Us", href: "/join-us" },
-  { name: "CryptoQueens", href: "#" },
   { name: "About", href: "/about" },
-  { name: "Projects", href: "#" },
-  { name: "Privacy", href: "#" },
-  { name: "Terms", href: "#" },
+  // { name: "Privacy", href: "/privacy" },
+  // { name: "Terms", href: "/terms" },
 ];
 
 export const SOCIALS = [

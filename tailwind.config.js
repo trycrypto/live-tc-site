@@ -1,19 +1,20 @@
 const colors = require("tailwindcss/colors");
 
 module.exports = {
+  mode: "jit",
   purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
       fontFamily: {
-        sans: ['"PT Sans"', "sans-serif"],
+        sans: ["PT Sans", "sans-serif"],
       },
       backgroundImage: {
-        "home-bkg": "url(/images/home.png)",
-        "yellow-bkg": "url(/images/yellow.png)",
-        "cq-bkg": "url(/images/cq.png)",
+        "home-bkg": "url(/images/background/home.png)",
+        "yellow-bkg": "url(/images/background/yellow.png)",
+        "cq-bkg": "url(/images/background/cq.png)",
         newsletter: "url(/images/newsletter.png)",
-        footer: "url(/images/footer.png)",
+        footer: "url(/images/background/footer.png)",
       },
       colors: {
         white: {
