@@ -78,7 +78,7 @@ const Navbar = () => {
 
                 <div className="relative md:ml-6 my-2">
                   <Link href="/join-us" passHref>
-                    <a className="focus:outline-none bg-yellow-bkg bg-contain  transition duration-150 ease-in-out bg-cover  hover:bg-grey rounded text-grey font-semibold tracking-wide px-5 py-3 text-sm">
+                    <a className="focus:outline-none bg-button  transition duration-150 ease-in-out bg-cover  hover:bg-grey rounded text-grey font-semibold tracking-wide px-5 py-3 text-sm">
                       Join Us
                     </a>
                   </Link>

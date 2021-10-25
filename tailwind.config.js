@@ -15,6 +15,7 @@ module.exports = {
         "cq-bkg": "url(/images/background/cq.png)",
         newsletter: "url(/images/newsletter.png)",
         footer: "url(/images/background/footer.png)",
+        button: "url(/images/background/button.png)",
       },
       colors: {
         white: {

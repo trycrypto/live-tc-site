@@ -20,17 +20,13 @@ const JoinUsHero = () => {
             <h1 className="text-3xl font-semibold tracking-tight text-white lg:text-4xl ">
               How to
             </h1>
-            <h1 className="mt-2 font-bold text-4xl leading-tight bg-clip-text text-transparent bg-yellow-bkg uppercase md:text-4xl lg:text-5xl">
+            <h1 className="mt-2 font-black text-4xl leading-tight bg-clip-text text-transparent bg-yellow-bkg uppercase md:text-4xl lg:text-5xl">
               Contribute
             </h1>
-
-            {/* <p className="mt-6 max-w-2xl text-lg  text-grey-extralight lg:max-w-xl">
-              We work on projects that make crypto more accessible.
-            </p> */}
           </div>
         </div>
 
-        <div className="mt-5 flex text-lg md:text-lg flex-row justify-between items-center text-grey-extralight mx-auto">
+        <div className="mt-5 flex flex-col md:flex-row text-lg md:text-lg  justify-between  text-grey-extralight mx-auto">
           <p>
             We are currently ramping up our crews in the areas below. <br />
             If you are interested in a leadership role, click “Sign Up” and{" "}
@@ -48,7 +44,7 @@ const JoinUsHero = () => {
             <div className="inline-flex ">
               <a
                 href="https://ly3v2je88v5.typeform.com/to/CR6M3SJD"
-                className="inline-flex items-center justify-center px-8 py-3 w-52 border border-transparent text-base font-medium rounded-md text-white bg-yellow-bkg bg-cover "
+                className="inline-flex items-center justify-center px-8 py-3 w-52 border border-transparent text-base font-semibold rounded-md text-white bg-button bg-cover "
               >
                 Sign Up
               </a>

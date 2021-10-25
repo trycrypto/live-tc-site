@@ -1,19 +1,25 @@
 import Link from "next/link";
 const PROJECTS = [
+  // {
+  //   logo: "/images/products/nftyfile.png",
+  //   name: "Nftyfile",
+  //   description: "Simple, photo-based authentication for decentralized apps.",
+  // },
   {
-    logo: "/images/products/nftyfile.png",
-    name: "Nftyfile",
-    description: "Simple, photo-based authentication for decentralized apps.",
+    logo: "/images/products/xpNFT.png",
+    name: "xpNFT",
+    description:
+      "An NFT that has either a digital or real-world experiential component.",
   },
   {
     logo: "/images/products/decentpage.png",
-    name: "DecentPage",
+    name: "DECENTPAGE",
     description:
       "Flexible NFT media packaging solution for end-users and devs.",
   },
   {
     logo: "/images/products/photokey.png",
-    name: "PhotoKey",
+    name: "PHOTOKEY",
     description: "Visual web-page authoring with decentralized storage.",
   },
 ];
@@ -54,7 +60,7 @@ const Projects = () => {
                       />
                     </span>
                   </div>
-                  <h3 className="mt-2 md:mt-8 text-2xl font-semibold tracking-wide text-white uppercase ">
+                  <h3 className="mt-2 md:mt-8 text-2xl font-semibold tracking-wide text-white  ">
                     {item.name}
                   </h3>
                   <p className="mt-3 mb-10 mx-auto text-sm md:text-base font-thin tracking-wide text-gray-500 w-11/12 lg:w-8/12">
