@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Seo from "../components/Seo";
+
 const Error = () => {
   return (
     <>

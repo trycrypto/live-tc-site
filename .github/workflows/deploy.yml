@@ -8,16 +8,26 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: 🚚 Get latest code
         uses: actions/checkout@v2
 
-      - name: Deploy to Vercel
-        uses: amondnet/vercel-action@v20
+      - name: Setup NodeJS 16.x
+        uses: actions/setup-node@v2
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          vercel-token: ${{ secrets.GEL_VERCEL_TOKEN }}
-          vercel-org-id: ${{ secrets.GEL_ORG_ID}}
-          vercel-project-id: ${{ secrets.GEL_TC_PROJECT_ID}}
-          vercel-args: "--prod"
-          github-comment: false # No need to comment preview link
-          working-directory: ./
+          node-version: 16.x
+          cache: "yarn"
+
+      - name: Install dependencies
+        run: yarn
+
+      - name: Build
+        run: |
+          yarn build && yarn next export && touch out/.nojekyll
+
+      - name: Deploy to GH Pages
+        uses: crazy-max/ghaction-github-pages@v2
+        with:
+          build_dir: out
+        env:
+          fqdn: trycrypto.com
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
