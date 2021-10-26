@@ -55,17 +55,15 @@ const Projects = () => {
               <div key={item.name} className="pt-6">
                 <div className="-mt-6">
                   <div>
-                    <Link href={item.href} passHref>
-                      <a target="_blank" rel="noreferrer">
-                        <span className="inline-flex items-center justify-center ">
-                          <img
-                            src={item.logo}
-                            alt={item.name}
-                            className="w-9/12 md:w-10/12 lg:w-full"
-                          />
-                        </span>
-                      </a>
-                    </Link>
+                    <a href={item.href} target="_blank" rel="noreferrer">
+                      <span className="inline-flex items-center justify-center ">
+                        <img
+                          src={item.logo}
+                          alt={item.name}
+                          className="w-9/12 md:w-10/12 lg:w-full"
+                        />
+                      </span>
+                    </a>
                   </div>
                   <h3 className="mt-2 md:mt-8 text-2xl font-semibold tracking-wide text-white  ">
                     {item.name}
