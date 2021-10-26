@@ -25,7 +25,7 @@ const people = [
       "Initially I wanted to get into the world of blockchain & crypto, but now I want to help others do it. I want to see blockchain simplified and open to everyone — a web3 with no limitations.",
   },
   {
-    name: "Megan Conard ",
+    name: "Megan Conard",
     emoji: "🐶 ⛷",
     image: "/images/team/Megan.png",
     twitterUrl: "https://twitter.com/Megan_Conard",

@@ -20,7 +20,7 @@ const Seo = ({ title, description }) => (
       <meta
         key={property}
         property={property}
-        content="/images/meta-image.png"
+        content="https://siasky.net/OADme1INI5HHA4pLgQF6f1ffcbWeFl5AiCnNKNL_bJsiBA"
       />
     ))}
   </Head>
