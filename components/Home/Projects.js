@@ -16,14 +16,13 @@ const PROJECTS = [
     logo: "/images/products/decentpage.png",
     name: "DECENTPAGE",
     href: "#",
-    description:
-      "Flexible NFT media packaging solution for end-users and devs.",
+    description: "Visual web-page authoring with decentralized storage.",
   },
   {
     logo: "/images/products/photokey.png",
     name: "PHOTOKEY",
     href: "#",
-    description: "Visual web-page authoring with decentralized storage.",
+    description: "Simple, photo-based authentication for decentralized apps.",
   },
 ];
 const Projects = () => {
