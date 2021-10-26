@@ -33,7 +33,7 @@ const Projects = () => {
         <h2 className="text-3xl md:text-4xl font-semibold tracking-wide text-white lg:text-6xl ">
           Current Projects
         </h2>
-        <p className="mt-5 text-sm md:text-base lg:text-lg text-grey-dark font-thin tracking-wide ">
+        <p className="mt-5 text-sm text-center md:text-base lg:text-lg text-grey-dark font-thin tracking-wide ">
           We are currently working on these projects that make crypto more
           accessible. <br /> Crews for each project are forming soon. Join
           our&nbsp;
@@ -49,7 +49,7 @@ const Projects = () => {
           &nbsp;to indicate your interest!
         </p>
 
-        <div className="mt-12">
+        <div className="mt-16 md:mt-12">
           <div className="grid grid-cols-1 gap-1 sm:grid-cols-1 lg:grid-cols-3">
             {PROJECTS.map((item) => (
               <div key={item.name} className="pt-6">
@@ -68,7 +68,7 @@ const Projects = () => {
                   <h3 className="mt-2 md:mt-8 text-2xl font-semibold tracking-wide text-white  ">
                     {item.name}
                   </h3>
-                  <p className="mt-3 mb-10 mx-auto text-sm md:text-base font-thin tracking-wide text-gray-500 w-11/12 lg:w-8/12">
+                  <p className="mt-3 mb-16 md:mb-10 mx-auto text-base font-thin tracking-wide text-gray-500 w-11/12 lg:w-8/12">
                     {item.description}
                   </p>
                 </div>

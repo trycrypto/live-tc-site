@@ -31,7 +31,7 @@ const CryptoQueens = () => {
         </div>
         <div className="w-full max-w-md  md:max-w-3xl md:mx-0">
           <img
-            className="w-10/12 object-cover md:w-9/12 mx-0 lg:mx-auto lg:w-8/12 flex-shrink-0 relative "
+            className="w-10/12 object-cover md:w-9/12 mx-auto lg:w-8/12 flex-shrink-0 relative "
             src="/images/home/queens.png"
             alt="CryptoQueens"
           />

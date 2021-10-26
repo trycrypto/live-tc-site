@@ -15,7 +15,7 @@ const JoinUsHero = () => {
   return (
     <div className="flex justify-center max-w-screen-2xl mx-auto px-6 sm:px-10 lg:px-12">
       <div className="relative py-20 lg:pt-10 lg:pb-28">
-        <div className="relative flex flex-col md:flex-row justify-between  text-left mx-auto py-10  sm:pt-16 sm:pb-2 ">
+        <div className="relative flex flex-col md:flex-row justify-between  text-left mx-auto pt-10 pb-4 sm:pt-16  ">
           <div>
             <h1 className="text-3xl font-semibold tracking-tight text-white lg:text-4xl ">
               How to
@@ -26,12 +26,11 @@ const JoinUsHero = () => {
           </div>
         </div>
 
-        <div className="mt-5 flex flex-col md:flex-row text-lg md:text-lg  justify-between  text-grey-extralight mx-auto">
-          <p>
-            We are currently ramping up our crews in the areas below. <br />
-            If you are interested in a leadership role, click “Sign Up” and{" "}
-            <br />
-            complete the application now.
+        <div className="mt-1 md:mt-5 flex flex-col md:flex-row text-base md:text-lg  justify-between  text-grey-extralight mx-auto">
+          <p className="max-w-md lg:max-w-lg">
+            We are currently ramping up our crews in the areas below. If you are
+            interested in a leadership role, click “Sign Up” and complete the
+            application now.
             <br />
             <br />
             If you are interested in other roles, apply{" "}
@@ -46,7 +45,7 @@ const JoinUsHero = () => {
             </Link>
             .
           </p>
-          <div className=" flex flex-col justify-center  space-y-4">
+          <div className="mt-8 md:mt-0 flex flex-col justify-center  space-y-4">
             <div className="inline-flex ">
               <a
                 target="_blank"
