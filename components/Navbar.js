@@ -171,7 +171,8 @@ const Navbar = () => {
                     <ul className="f-m-m text-grey ">
                       {MAIN_LINKS.map(({ href, name }) => (
                         <Link key={name} href={href} passHref>
-                          <a>
+                          {/* close the navbar when menu item is clicked */}
+                          <a onClick={() => setShow(false)}>
                             <li className="pt-10">
                               <span className="font-thin tracking-wider text-base ml-3">
                                 {name}

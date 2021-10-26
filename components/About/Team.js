@@ -89,6 +89,8 @@ const Team = () => {
                       <span className="flex justify-center items-center">
                         <a
                           href={person.twitterUrl}
+                          target="_blank"
+                          rel="noreferrer"
                           className="text-gray-400 hover:text-gray-500"
                         >
                           <span className="sr-only">Twitter</span>

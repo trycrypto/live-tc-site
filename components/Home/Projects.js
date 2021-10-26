@@ -9,7 +9,7 @@ const PROJECTS = [
     logo: "/images/products/xpNFT.png",
     name: "xpNFT",
     description:
-      "An NFT that has either a digital or real-world experiential component.",
+      "Platform that enables NFT artists to design and mint experiential art NFTs.",
   },
   {
     logo: "/images/products/decentpage.png",

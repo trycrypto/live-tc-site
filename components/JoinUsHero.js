@@ -35,14 +35,22 @@ const JoinUsHero = () => {
             <br />
             <br />
             If you are interested in other roles, apply{" "}
-            <Link href="" passHref>
-              <a className="hover:text-yellow underline italic">here</a>
+            <Link href="https://ly3v2je88v5.typeform.com/to/YHY86Ccp" passHref>
+              <a
+                className="hover:text-yellow underline italic"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                here
+              </a>
             </Link>
             .
           </p>
           <div className=" flex flex-col justify-center  space-y-4">
             <div className="inline-flex ">
               <a
+                target="_blank"
+                rel="noopener noreferrer"
                 href="https://ly3v2je88v5.typeform.com/to/CR6M3SJD"
                 className="inline-flex items-center justify-center px-8 py-3 w-52 border border-transparent text-base font-semibold rounded-md text-white bg-button bg-cover "
               >

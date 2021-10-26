@@ -22,6 +22,8 @@ const Footer = () => {
             <a
               key={item.name}
               href={item.href}
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-grey-extralight hover:text-yellow-200"
             >
               <span className="sr-only">{item.name}</span>

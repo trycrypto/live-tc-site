@@ -16,6 +16,13 @@ const Seo = ({ title, description }) => (
         }
       />
     ))}
+    {["og:image", "twitter:image"].map((property) => (
+      <meta
+        key={property}
+        property={property}
+        content="/images/meta-image.png"
+      />
+    ))}
   </Head>
 );
 
