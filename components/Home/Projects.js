@@ -55,8 +55,8 @@ const Projects = () => {
               <div key={item.name} className="pt-6">
                 <div className="-mt-6">
                   <div>
-                    <Link href={item.href} target="_blank" rel="noreferrer">
-                      <a>
+                    <Link href={item.href}>
+                      <a target="_blank" rel="noreferrer">
                         <span className="inline-flex items-center justify-center ">
                           <img
                             src={item.logo}
