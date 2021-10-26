@@ -8,18 +8,21 @@ const PROJECTS = [
   {
     logo: "/images/products/xpNFT.png",
     name: "xpNFT",
+    href: "https://xpnft.github.io/info/xpNFT.pdf",
     description:
       "Platform that enables NFT artists to design and mint experiential art NFTs.",
   },
   {
     logo: "/images/products/decentpage.png",
     name: "DECENTPAGE",
+    href: "#",
     description:
       "Flexible NFT media packaging solution for end-users and devs.",
   },
   {
     logo: "/images/products/photokey.png",
     name: "PHOTOKEY",
+    href: "#",
     description: "Visual web-page authoring with decentralized storage.",
   },
 ];
@@ -52,13 +55,17 @@ const Projects = () => {
               <div key={item.name} className="pt-6">
                 <div className="-mt-6">
                   <div>
-                    <span className="inline-flex items-center justify-center ">
-                      <img
-                        src={item.logo}
-                        alt={item.name}
-                        className="w-9/12 md:w-10/12 lg:w-full"
-                      />
-                    </span>
+                    <Link href={item.href} target="_blank" rel="noreferrer">
+                      <a>
+                        <span className="inline-flex items-center justify-center ">
+                          <img
+                            src={item.logo}
+                            alt={item.name}
+                            className="w-9/12 md:w-10/12 lg:w-full"
+                          />
+                        </span>
+                      </a>
+                    </Link>
                   </div>
                   <h3 className="mt-2 md:mt-8 text-2xl font-semibold tracking-wide text-white  ">
                     {item.name}

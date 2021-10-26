@@ -5,7 +5,7 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <meta name="twitter:card" content="summary" />
+          <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:site" content="@TryCrypto" />
           <meta name="twitter:creator" content="@TryCrypto" />
           <meta name="robots" content="index,follow" />

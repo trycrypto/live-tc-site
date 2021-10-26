@@ -16,7 +16,6 @@ const Seo = ({ title, description }) => (
         }
       />
     ))}
-    <meta name="twitter:card" content="summary_large_image">
     {["og:image", "twitter:image"].map((property) => (
       <meta
         key={property}
