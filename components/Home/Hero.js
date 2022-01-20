@@ -1,10 +1,10 @@
-import { ArrowNarrowRightIcon } from "@heroicons/react/outline";
-import Link from "next/link";
+import { ArrowNarrowRightIcon } from '@heroicons/react/outline'
+import Link from 'next/link'
 
 const Home = () => {
   return (
     <div className="bg-home-bkg bg-cover relative px-3 md:px-0 h-full">
-      <div className="flex flex-col-reverse md:flex-row justify-between max-w-screen-xl lg:max-w-screen-2xl mx-auto pt-32 pb-10 md:pb-0 ">
+      <div className="flex flex-col-reverse md:flex-row justify-between max-w-screen-lg lg:max-w-screen-xl mx-auto pt-32 pb-10 md:pb-0 ">
         <div className="w-full max-w-lg mx-auto md:max-w-xl md:mx-8">
           <div className="lg:py-8  font-black  text-center md:text-left text-4xl md:text-5xl xl:text-6xl">
             <h2 className="mt-2 md:text-left leading-tight bg-clip-text text-transparent bg-yellow-bkg bg-cover">
@@ -20,7 +20,7 @@ const Home = () => {
             <Link href="/join-us" passHref>
               <a className="inline-block tracking-wide cursor-pointer font-bold rounded-lg text-grey bg-button bg-cover py-3 px-8 mt-8  text-sm  mx-auto md:mx-0">
                 <span className="flex items-center">
-                  Join Our Community{" "}
+                  Join Our Community{' '}
                   <ArrowNarrowRightIcon className="w-5 md:w-6 ml-2" />
                 </span>
               </a>
@@ -36,7 +36,7 @@ const Home = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home

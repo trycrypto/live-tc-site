@@ -4,39 +4,39 @@ import {
   LightningBoltIcon,
   MailIcon,
   ScaleIcon,
-} from "@heroicons/react/outline";
+} from '@heroicons/react/outline'
 
 const features = [
   {
-    name: "Actions over words",
+    name: 'Actions over words',
     description:
       'We prioritize action over analysis, and believe in "move fast and get results!”',
-    icon: "/images/home/actions.svg",
+    icon: '/images/home/actions.svg',
   },
   {
-    name: "Work for global economic equity",
+    name: 'Work for global economic equity',
     description:
-      "We strive to bring economic equity for people everywhere, especially in developing countries.",
-    icon: "/images/home/equity.svg",
+      'We strive to bring economic equity for people everywhere, especially in developing countries.',
+    icon: '/images/home/equity.svg',
   },
   {
-    name: "High ethical and quality standards",
+    name: 'High ethical and quality standards',
     description:
-      "We aim for high quality in our work without making ethical compromises.",
-    icon: "/images/home/ethics.svg",
+      'We aim for high quality in our work without making ethical compromises.',
+    icon: '/images/home/ethics.svg',
   },
   {
-    name: "Empathy is paramount",
+    name: 'Empathy is paramount',
     description:
-      "Empathy is the foundation on which we build our organization and our products.",
-    icon: "/images/home/empathy.svg",
+      'Empathy is the foundation on which we build our organization and our products.',
+    icon: '/images/home/empathy.svg',
   },
-];
+]
 
 const Mission = () => {
   return (
     <div className="relative bg-black overflow-hidden">
-      <div className="max-w-screen-2xl mx-auto py-32 px-8   ">
+      <div className="max-w-screen-xl  mx-auto py-32 px-8   ">
         <div className="relative lg:grid lg:grid-cols-3 lg:gap-x-8">
           <div className="lg:col-span-1">
             <h2 className="text-4xl font-extrabold tracking-tight text-white  md:text-4xl ">
@@ -68,7 +68,7 @@ const Mission = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Mission;
+export default Mission

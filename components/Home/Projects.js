@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from 'next/link'
 const PROJECTS = [
   // {
   //   logo: "/images/products/nftyfile.png",
@@ -6,25 +6,25 @@ const PROJECTS = [
   //   description: "Simple, photo-based authentication for decentralized apps.",
   // },
   {
-    logo: "/images/products/xpNFT.png",
-    name: "xpNFT",
-    href: "https://xpnft.github.io/info/xpNFT.pdf",
+    logo: '/images/products/xpNFT.png',
+    name: 'xpNFT',
+    href: 'https://xpnft.github.io/info/xpNFT.pdf',
     description:
-      "Platform that enables NFT artists to design and mint experiential art NFTs.",
+      'Platform that enables NFT artists to design and mint experiential art NFTs.',
   },
   {
-    logo: "/images/products/decentpage.png",
-    name: "DECENTPAGE",
-    href: "#",
-    description: "Visual web-page authoring with decentralized storage.",
+    logo: '/images/products/decentpage.png',
+    name: 'DECENTPAGE',
+    href: '#',
+    description: 'Visual web-page authoring with decentralized storage.',
   },
   {
-    logo: "/images/products/photokey.png",
-    name: "PHOTOKEY",
-    href: "#",
-    description: "Simple, photo-based authentication for decentralized apps.",
+    logo: '/images/products/photokey.png',
+    name: 'PHOTOKEY',
+    href: 'https://demo.photokey.org/',
+    description: 'Simple, photo-based authentication for decentralized apps.',
   },
-];
+]
 const Projects = () => {
   return (
     <div className="relative bg-black py-16 sm:py-24 lg:py-32">
@@ -77,7 +77,7 @@ const Projects = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Projects;
+export default Projects
