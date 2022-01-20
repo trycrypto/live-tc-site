@@ -1,7 +1,7 @@
 const Genesis = () => {
   return (
     <div className="flex relative bg-cq-bkg bg-cover px-4 md:px-6 h-full xl:h-5/6 ">
-      <div className="flex flex-col md:flex-row justify-center md:justify-between max-w-screen-lg lg:max-w-screen-xl xl:max-w-screen-2xl mx-auto py-10 md:py-40 ">
+      <div className="flex flex-col md:flex-row justify-center md:justify-between max-w-screen-lg lg:max-w-screen-xl mx-auto py-10 md:py-40 ">
         <img
           className="w-52 h-48 relative mr-16"
           src="/images/genesis.png"
@@ -45,7 +45,7 @@ const Genesis = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Genesis;
+export default Genesis
