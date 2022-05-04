@@ -5,55 +5,67 @@ const people = [
     emoji: '🐶 📝',
     image: '/images/team/Aimara.png',
     twitterUrl: 'https://twitter.com/NemerieGarcia',
-    about:
-      'For a more inclusive and empathetic web. For a better web, which we deserve.',
+    pos: 'Community Manager',
   },
-  {
-    name: 'Angelica Turla',
-    emoji: '💻 🌱',
-    image: '/images/team/Gel.png',
-    twitterUrl: 'https://twitter.com/gxlica',
-    about:
-      'To build a more equitable world - where boundless opportunities are accessible to everyone.',
-  },
+  // {
+  //   name: 'Angelica Turla',
+  //   emoji: '💻 🌱',
+  //   image: '/images/team/Gel.png',
+  //   twitterUrl: 'https://twitter.com/gxlica',
+  //   pos:
+  //     'To build a more equitable world - where boundless opportunities are accessible to everyone.',
+  // },
+
   {
     name: 'Dayana Yankulova',
     emoji: '🦄 🤸‍♀️',
     image: '/images/team/Dayana.png',
     twitterUrl: 'https://twitter.com/DayanaYankulova',
-    about:
-      'Initially I wanted to get into the world of blockchain & crypto, but now I want to help others do it. I want to see blockchain simplified and open to everyone — a web3 with no limitations.',
+    pos: 'Community Lead',
   },
   // {
   //   name: "Megan Conard",
   //   emoji: "🐶 ⛷",
   //   image: "/images/team/Megan.png",
   //   twitterUrl: "https://twitter.com/Megan_Conard",
-  //   about:
+  //   pos:
   //     "I believe that crypto technologies can change the world, but only when women and minorities get a seat at the table.  TryCrypto's equality focus drives me toward finding new ways that crypto can do good in the world",
   // },
+  {
+    name: 'Mariana Rodrigues',
+    emoji: '🦄 🤸‍♀️',
+    image: '/images/team/mariana.jpg',
+    twitterUrl: 'https://twitter.com/mari__0x',
+    pos: 'Product & Community Lead',
+  },
+
   {
     name: 'Mirna Maria',
     emoji: '🐶 ✨',
     image: '/images/team/Mirna.png',
     twitterUrl: 'https://twitter.com/ArtsyBolivian',
-    about:
-      'I believe every person can make this world better, and I know TryCrypto is going to give more opportunities for a lot of people to make it happen.',
+    pos: 'Marketing Lead',
   },
   {
-    name: 'Niharika Singh',
-    emoji: '⛰️ 👩‍💻',
-    image: '/images/team/Niharika.png',
-    twitterUrl: 'https://twitter.com/YourETHGirl',
-    about: 'I want to see the world try crypto.',
+    name: 'Nicole Prada',
+    emoji: '🦄 🤸‍♀️',
+    image: '/images/team/nicole.jpeg',
+    twitterUrl: 'https://twitter.com/Octopape',
+    pos: 'Marketing & Community Lead',
   },
+  // {
+  //   name: 'Niharika Singh',
+  //   emoji: '⛰️ 👩‍💻',
+  //   image: '/images/team/Niharika.png',
+  //   twitterUrl: 'https://twitter.com/YourETHGirl',
+  //   pos: 'I want to see the world try crypto.',
+  // },
   {
     name: 'Radhika Lal',
     emoji: '🐾 🎹',
     image: '/images/team/Radhika.png',
     twitterUrl: 'https://twitter.com/radhika_lal_',
-    about:
-      'I want to build products that make crypto accessible and understandable for users across the globe.',
+    pos: 'Design Lead',
   },
   // More people...
 ]
@@ -79,7 +91,7 @@ const Team = () => {
               <li key={person.name}>
                 <div className="space-y-6">
                   <img
-                    className="mx-auto h-40 w-40 rounded-md xl:w-56 xl:h-56"
+                    className="mx-auto h-40 w-40 rounded-md xl:w-56 xl:h-56 object-cover"
                     src={person.image}
                     alt=""
                   />
@@ -110,7 +122,7 @@ const Team = () => {
                     </div>
 
                     <p className="text-sm px-4 md:px-14 lg:px-0 font-thin tracking-wide text-grey-dark">
-                      {person.about}
+                      {person.pos}
                     </p>
                   </div>
                 </div>
