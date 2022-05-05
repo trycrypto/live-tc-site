@@ -33,7 +33,7 @@ const people = [
   // },
   {
     name: 'Mariana Rodrigues',
-    emoji: '🦄 🤸‍♀️',
+    emoji: '🏋🏻‍♀️🍓',
     image: '/images/team/mariana.jpg',
     twitterUrl: 'https://twitter.com/mari__0x',
     pos: 'Product & Community Lead',
@@ -48,7 +48,7 @@ const people = [
   },
   {
     name: 'Nicole Prada',
-    emoji: '🦄 🤸‍♀️',
+    emoji: '🤠✨',
     image: '/images/team/nicole.jpeg',
     twitterUrl: 'https://twitter.com/Octopape',
     pos: 'Marketing & Community Lead',
